@@ -1,6 +1,6 @@
 export default function ProductItem({product}) {
     return (
-        <li className="Product" key={product.id}>
+        <li className="Product">
             <a href={'detail/'+product.id}>
                 <img src={product.thump} alt="" title=""/>
                 {product.title}

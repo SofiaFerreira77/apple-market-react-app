@@ -3,7 +3,7 @@ import ProductItem from "./ProductItem"
 export default function List() {
     const productList = [
         {
-            id: "703512369",
+            id: "70351236",
             title: "Modern Art Paint",
             shop_id: 14551624,
             shop_name: "PirozArt",
@@ -31,7 +31,7 @@ export default function List() {
             thump: "https://i.etsystatic.com/14551624/c/2250/1786/0/661/il/2cab6d/1865708600/il_75x75.1865708600_3pm3.jpg"
         },
         {
-            id: "703512369",
+            id: "7035123",
             title: "Modern Art Paint",
             shop_id: 14551624,
             shop_name: "PirozArt",
@@ -46,7 +46,7 @@ export default function List() {
         }
     ]
 
-    const showProductList = productList.map((product) => <ProductItem product={product} />)
+    const showProductList = productList.map((product) => <ProductItem key={product.id} product={product} />)
 
     return (
         <main className='ProductList'>
