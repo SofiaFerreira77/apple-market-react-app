@@ -1,0 +1,13 @@
+.ProductList {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+@media (min-width: 992px) {
+    .ProductList {
+        max-width: 992px;
+    }
+}

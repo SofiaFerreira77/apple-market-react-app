@@ -1,0 +1,21 @@
+.Footer {
+    width: 100%;
+    height: 10rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+.Footer a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.Footer a:hover {
+    color: #fff
+}

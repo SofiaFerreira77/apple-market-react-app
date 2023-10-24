@@ -1,0 +1,6 @@
+.Product {
+    padding: 15px;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+}
