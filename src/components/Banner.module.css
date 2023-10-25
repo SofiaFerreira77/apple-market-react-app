@@ -1,0 +1,20 @@
+.Banner {
+    background-image: url(https://www.apple.com/v/mac/home/bv/images/overview/get-more/business__dhhbnntkcwuq_large_2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70vh;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.Banner a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}

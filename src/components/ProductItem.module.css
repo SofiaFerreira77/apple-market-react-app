@@ -1,6 +1,15 @@
 .Product {
-    padding: 15px;
-    list-style: none;
     border-radius: 5px;
+    list-style: none;
     box-shadow: 0 2px 5px #ccc;
+    display: block;
+}
+
+.Product a {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
