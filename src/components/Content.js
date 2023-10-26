@@ -5,7 +5,7 @@ import Home from "../views/Home";
 import Param from "../views/Param";
 import About from "../views/About";
 import NotFound from "../views/NotFound";
-import List from "./ProductList";
+import List from "../views/List";
 
 const Content = props => {
     return (

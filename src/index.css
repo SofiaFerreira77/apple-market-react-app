@@ -64,3 +64,11 @@ main {
     max-width: 100%
   }
 }
+
+.text-white {
+  color: var(--color-white);
+}
+
+.text-black {
+  color: var(--color-grey-dark2);
+}
