@@ -1,4 +1,4 @@
-import styles from './Header.module.css'
+import styles from '../../styles/Header.module.css'
 import { Bag, Logo, Search } from './Icons'
 
 export default function Header() {
@@ -6,7 +6,7 @@ export default function Header() {
         <header className={styles.Header}>
             <div className={styles.HeaderContainer}>
                 <a href="/" className={styles.HeaderLogo}>
-                    <Logo /> Shop
+                    <Logo /> Market
                 </a>
 
                 <nav>

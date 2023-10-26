@@ -1,6 +1,5 @@
 import { isArrayEmpty } from "../utils/Utils"
-import ProductListData from '../data/ProductListData'
-import styles from './ProductList.module.css'
+import styles from '../styles/ProductList.module.css'
 import ProductItem from "./ProductItem"
 
 export default function List() {

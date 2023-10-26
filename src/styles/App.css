@@ -1,5 +1,5 @@
 .App {
-  background-color: #f4f4f4;
+  background-color: var(--color-grey-light1);
   font-weight: 400;
   letter-spacing: -.01em;
   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -8,7 +8,7 @@
 
 a {
   text-decoration: none;
-  color: rgba(0, 0, 0, .8);
+  color: var(--color-grey-dark2);
 }
 
 img {

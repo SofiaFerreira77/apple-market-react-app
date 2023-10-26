@@ -1,4 +1,4 @@
-import styles from './Banner.module.css'
+import styles from '../styles/Banner.module.css'
 
 const Banner = props => {
     const {title, subtitle, link, linkName} = props;

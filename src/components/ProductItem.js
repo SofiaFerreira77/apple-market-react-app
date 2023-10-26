@@ -1,4 +1,4 @@
-import styles from './ProductItem.module.css'
+import styles from '../styles/ProductItem.module.css'
 
 export default function ProductItem({product}) {
     console.log(product)
