@@ -2,7 +2,7 @@
     position: relative;
     z-index: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 
 .ProductList .ProductListContainer {
@@ -11,10 +11,4 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 30px;
-}
-
-@media (min-width: 992px) {
-    .ProductList .ProductListContainer {
-        max-width: 990px;
-    }
 }
